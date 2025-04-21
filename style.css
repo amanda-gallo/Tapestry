@@ -1,0 +1,84 @@
+body{ /*this is a comment*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px white;
+    font-style: normal;
+    background-image: url(4.jpg);
+
+}
+
+img{
+    margin: 10px;
+    border: 2px dashed green;
+    padding: 50px;
+}
+
+
+
+#image1 img {
+    margin: 20px;
+    border: 10px solid lightcoral;
+    padding: 10px;
+    position: relative;
+    left: 15vw;/*one vw is 1% of the with of the viewport*/
+    top: 0vh;
+    z-index: 4;
+}
+
+#image2 {
+    border: none;
+    position: fixed;
+    top: 10vh;
+    right: 1000px;
+    opacity: .8;
+    z-index: 3;
+}
+
+video{
+    margin: 30px;
+    border: 5px solid rgb(255, 255, 255);
+    padding: 40px;
+    position: relative;
+    left: 20vw;/*one vw is 1% of the with of the viewport*/
+    top: 10px;
+    z-index: 2;
+}
+
+.media{
+    border: 80px dashed rgb(77, 25, 248)
+}
+
+#processing{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px;
+    text-align:left;
+    color: lightcyan;
+    word-spacing: 10%;
+    letter-spacing: 1em;
+    line-height: 2em;
+    padding: 10px;
+    border: 5px solid lightcyan;
+    background-color: lightskyblue;
+    background-image: url(2.jpg);
+    background-size: cover;
+
+}
+
+#amanda{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+    position: relative;
+    left: 15vw;/*one vw is 1% of the with of the viewport*/
+    top: 0vh;
+    z-index: 5;    
+    color: rgb(255, 255, 255);
+}
+
+#processing a:hover{
+    color: rgb(184, 180, 245);
+}
+
+canvas{
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
